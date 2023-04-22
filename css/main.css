@@ -1,0 +1,49 @@
+body {
+    font-family: 'Jura', arial, serif; 
+    font-size: 20px;
+    background-image: url(../images/background.jpg);
+    background-size: cover;   
+}
+
+nav:before {
+    content: "";
+    display: block;
+    height: 100px;
+    width: 100%;
+    background-color: #dbc0fd;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+ul {
+    margin: 5px;
+    padding: 0px;
+    height: 100px;
+    list-style: none;
+
+}
+ul li a {
+    float: right;
+    color: #f31cd6;
+    font-size: 26px;
+    -webkit-text-stroke:1px black;
+    display: block;
+    height: 100px;
+    padding: 0 50px;
+    text-decoration: none;
+    list-style: 0;
+    line-height: 100px;
+}
+ul li a:hover {
+    background-color: #88664d;
+}
+h1 {
+    font-weight: normal;
+    color: #f31cd6;
+    -webkit-text-stroke:1px black;
+}
+p2 {
+    font-size: 26px;
+    color: #f31cd6;
+    -webkit-text-stroke:1px black;
+}

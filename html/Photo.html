@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Кошка Мия</title>
+    <link rel="shortcut icon" href="../images/logo.png" type="image/png">
+    <script type="text/javascript" src="../jgallery-master/dist/js/jgallery.js"></script>
+</head>
+<body style="margin:0; font-family: sans-serif;">
+    <div id="gallery">
+    </div>
+    <script type="text/javascript">
+        document.querySelector('#gallery').appendChild(JGallery.create([{
+            title: 'Images',
+            items: [
+                {
+                    url: '../images/large/1.jpg',
+                    thumbUrl: '../images/thumbs/1.jpg',
+                    hash: 'photo-1'
+                },
+                {
+                    url: '../images/large/2.jpg',
+                    thumbUrl: '../images/thumbs/2.jpg',
+                    hash: 'photo-2'
+                },
+                {
+                    url: '../images/large/3.jpg',
+                    thumbUrl: '../images/thumbs/3.jpg',
+                    hash: 'photo-3'
+                },
+                {
+                    url: '../images/large/4.jpg',
+                    thumbUrl: '../images/thumbs/4.jpg',
+                    hash: 'photo-4'
+                },
+                {
+                    url: '../images/large/5.jpg',
+                    thumbUrl: '../images/thumbs/5.jpg',
+                    hash: 'photo-5'
+                },
+                {
+                    url: '../images/large/6.jpg',
+                    thumbUrl: '../images/thumbs/6.jpg',
+                    hash: 'photo-6'
+                },
+                {
+                    url: '../images/large/7.jpg',
+                    thumbUrl: '../images/thumbs/7.jpg',
+                    hash: 'photo-7'
+                },
+                {
+                    url: '../images/large/8.jpg',
+                    thumbUrl: '../images/thumbs/8.jpg',
+                    hash: 'photo-8'
+                },
+                {
+                    url: '../images/large/9.jpg',
+                    thumbUrl: '../images/thumbs/9.jpg',
+                    hash: 'photo-9'
+                }
+            ]
+        }, ]).getElement());
+    </script>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+body {
+    font-family: 'Jura', arial, serif;
+    background-image: url(../images/background.jpg);
+    background-size: cover;   
+}
+h1 {    
+    color: #f31cd6;
+    -webkit-text-stroke:1px black; 
+    font-size: 100px;
+}
+.list5a {
+    padding:0;
+    list-style: none;
+}    
+.list5a li {
+    position: relative;
+    padding: 10px 30px;
+    background: linear-gradient(to left, #dbc0fd 0%, #FFF, #dbc0fd);
+    border: 2px solid #000000;
+    margin-bottom: 5px;
+    text-align:center;
+    font-size: 23px;
+}
