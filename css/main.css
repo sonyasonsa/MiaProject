@@ -10,7 +10,7 @@ nav:before {
     display: block;
     height: 100px;
     width: 100%;
-    background-color: #dbc0fd;
+    background-color: #000000;
     position: absolute;
     right: 0;
     z-index: -1;
